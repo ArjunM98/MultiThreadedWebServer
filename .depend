@@ -1,0 +1,5 @@
+client.o: client.c common.h
+client_simple.o: client_simple.c common.h
+common.o: common.c common.h
+fileset.o: fileset.c /usr/local/include/popt.h common.h
+request.o: request.c common.h request.h
