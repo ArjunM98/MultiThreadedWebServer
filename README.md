@@ -1,6 +1,6 @@
 # Multi-Threaded WebServer
 
-A simple multi-threaded web server with caching capabilities used to server static web content 
+A simple multi-threaded web server with caching capabilities used to serve static web content
 
 The server is initialized with a fixed-size pool of worker threads used to serve requests. Each thread is blocked until there is an HTTP request to handle. When there are multiple HTTP requests available each request is handled in a FIFO order. 
 
